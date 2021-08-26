@@ -13,5 +13,3 @@ function reverseWords(str) {
         .map((word) => word.split('').reverse().join(''))
         .join(' ');
 }
-
-console.log(reverseWords('sihT si na !elpmaxe'));
