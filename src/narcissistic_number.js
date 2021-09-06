@@ -15,3 +15,5 @@ function narcissistic(value) {
 
     return sumOfExponentals === value;
 }
+
+module.exports = narcissistic;

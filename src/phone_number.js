@@ -12,3 +12,5 @@ function createPhoneNumber(numbers) {
         6,
     )}-${digitsAsString.substring(6)}`;
 }
+
+module.exports = createPhoneNumber;
