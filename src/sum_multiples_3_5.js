@@ -1,6 +1,7 @@
 /*
 Challenge: Write function findSum.
-Upto and including n, this function will return the sum of all multiples of 3 and 5.
+Upto and including n, this function will
+return the sum of all multiples of 3 and 5.
 */
 
 function findSum(n) {
@@ -8,3 +9,5 @@ function findSum(n) {
         n % 3 === 0 || n % 5 === 0 ? acc + n : acc,
     );
 }
+
+module.exports = findSum;

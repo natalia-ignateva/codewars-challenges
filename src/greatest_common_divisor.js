@@ -7,3 +7,5 @@ The inputs x and y are always greater or equal to 1, so the greatest common divi
 function mygcd(x, y) {
     return x % y === 0 ? y : mygcd(y, x % y);
 }
+
+module.exports = mygcd;

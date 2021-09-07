@@ -11,3 +11,5 @@ function arraySum(arr) {
         0,
     );
 }
+
+module.exports = arraySum;
