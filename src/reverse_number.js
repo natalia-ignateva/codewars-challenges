@@ -10,3 +10,5 @@ function reverse(n) {
     }
     return reversed;
 }
+
+module.exports = reverse;
